@@ -45,6 +45,8 @@ var productRepository = new DapperProductRepository(conn);
 productRepository.DeleteProduct(940);
 
 
+//test to make sure that this is pushing to github
+
 var products = productRepository.GetAllProducts();
 foreach (var product in products)
 {
